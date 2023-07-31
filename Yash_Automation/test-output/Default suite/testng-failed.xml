@@ -3,11 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestNG.OrangeHRM">
+      <class name="TestNG.Test_automation">
         <methods>
-          <include name="EnterLoginDetails"/>
+          <include name="ReturntoHomePage"/>
+          <include name="Calculater"/>
+          <include name="start"/>
+          <include name="tearDown"/>
+          <include name="LandingPage"/>
         </methods>
-      </class> <!-- TestNG.OrangeHRM -->
+      </class> <!-- TestNG.Test_automation -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

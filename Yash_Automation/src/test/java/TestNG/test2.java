@@ -29,11 +29,9 @@ public class test2 {
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
-		driver.get("https://www.facebook.com/");
-		driver.findElement(By.name("email")).sendKeys("HYR Tutorial", Keys.ENTER);
-		System.out.println(driver.getTitle());
-		Thread.sleep(2000);
-		driver.quit();
+		driver.get("https://www.instagram.com/");
+		
+		
 		
 	}
 
